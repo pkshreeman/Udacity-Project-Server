@@ -22,7 +22,7 @@
   ```
   ssh -i ~/grader grader@54.152.192.99 -p2200
   ```
-  where the grader is the private key provided by other means.
+  where the ~/grader is the private key file.
 
 * ubuntu ssh login:
   ```
@@ -36,8 +36,8 @@ added the user grader:
 ```
 sudo adduser grader
 ```
-(password) Udacity!
-entered Full Name as Udacity
+* password: Udacity!
+* Full Name:  Udacity
 
 Installed the following packages:
 ```
@@ -80,7 +80,7 @@ sudo python database_setup.py
 sudo python item-makers.py
 ```
 
-I followed these instructions to enable the delopyment process:
+I followed these instructions to enable the deployment process:
 <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
 
 
